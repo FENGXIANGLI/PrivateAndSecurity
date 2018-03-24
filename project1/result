@@ -1,3 +1,5 @@
+You can see the result in Jupyter notebook
+
 Part2:
 
 [{'learningRate': 0.01, 'loss': 5.6999738e-11}, 
@@ -22,9 +24,17 @@ Part4:
 [{'N': 5, 'Mode': 'Sequential', 'Accuracy': 0.8549}, 
 {'N': 10, 'Mode': 'Sequential', 'Accuracy': 0.854}, 
 {'N': 50, 'Mode': 'Sequential', 'Accuracy': 0.9135}, 
+
+For Sequential, the labels are random shuffled so the the accuracy goes down
+
 {'N': 5, 'Mode': 'Random', 'Accuracy': 0.6466}, 
 {'N': 10, 'Mode': 'Random', 'Accuracy': 0.8248}, 
 {'N': 50, 'Mode': 'Random', 'Accuracy': 0.8376}, 
+
+For Random, the labels are random assigned a new value that is different from the original so the the accuracy goes worse than Random
+
 {'N': 5, 'Mode': 'Maximum', 'Accuracy': 0.4634}, 
 {'N': 10, 'Mode': 'Maximum', 'Accuracy': 0.5063}, 
 {'N': 50, 'Mode': 'Maximum', 'Accuracy': 0.6026}]
+
+For Mode, the exact labels are wrongly assigned to a certain wrong value. It will deliberately mislead the system so the the accuracy are the worst
