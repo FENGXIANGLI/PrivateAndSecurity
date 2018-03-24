@@ -1,0 +1,30 @@
+Part2:
+
+[{'learningRate': 0.01, 'loss': 5.6999738e-11}, 
+{'learningRate': 0.001, 'loss': 0.14828278}, 
+{'learningRate': 0.1, 'loss': nan}, 
+{'learningRate': 0.5, 'loss': nan}]
+
+The best learning rate is 0.01
+
+Part3:
+
+[{'learning_rate': 0.01, 'Accuracy': 0.8714}, 
+{'learning_rate': 0.1, 'Accuracy': 0.91}, 
+{'learning_rate': 0.3, 'Accuracy': 0.9187}, 
+{'learning_rate': 0.5, 'Accuracy': 0.9179}, 
+{'learning_rate': 0.7, 'Accuracy': 0.9167}]
+
+The best learning rate is 0.3
+
+Part4:
+
+[{'N': 5, 'Mode': 'Sequential', 'Accuracy': 0.8549}, 
+{'N': 10, 'Mode': 'Sequential', 'Accuracy': 0.854}, 
+{'N': 50, 'Mode': 'Sequential', 'Accuracy': 0.9135}, 
+{'N': 5, 'Mode': 'Random', 'Accuracy': 0.6466}, 
+{'N': 10, 'Mode': 'Random', 'Accuracy': 0.8248}, 
+{'N': 50, 'Mode': 'Random', 'Accuracy': 0.8376}, 
+{'N': 5, 'Mode': 'Maximum', 'Accuracy': 0.4634}, 
+{'N': 10, 'Mode': 'Maximum', 'Accuracy': 0.5063}, 
+{'N': 50, 'Mode': 'Maximum', 'Accuracy': 0.6026}]
